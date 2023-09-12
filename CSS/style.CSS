@@ -1,0 +1,237 @@
+body {
+
+    margin: 10px;
+    background-color: rgb(60, 150, 211);
+}
+
+
+
+nav {
+
+    background-color: rgb(135, 229, 229);
+    border-style: solid;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 10px;
+    
+}
+
+a.nav:hover {
+
+        color: white;
+        font-size: 150%;
+        font-family:monospace;
+
+    }
+    
+a.nav:link, a:visited {
+
+        color: red;
+        font-size: 25;
+       
+    }
+
+.foots {
+    
+    background-color: rgb(58, 214, 231);
+    border-style: groove;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}    
+
+a.footy:hover {
+
+        color: rgb(235, 229, 71);
+        font-size: 140%;
+        font-family: monospace;
+
+}
+
+a.footy:link, a:visited {
+
+    color: rgb(31, 180, 115);
+    font-size: 15;
+   
+}
+
+.sect1 {
+
+    text-align: center;
+    background-color: rgb(60, 150, 211);
+    padding: 150px 15px 10px 10px;
+    position: relative;
+    font-style: oblique;
+
+}
+
+.sect2 {
+
+text-align: center;
+
+
+}
+
+.clouds1 {
+
+position: absolute;
+right: 40px;
+top: 25px;
+
+}
+
+.clouds2 {
+
+position: absolute;
+left: 20px;
+top: 30;
+
+}
+
+.forest {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+a:hover {
+
+    color: rgb(37, 202, 217);
+    font-size: 150%;
+    font-family: monospace;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+
+    color: rgb(163, 81, 240);
+    text-decoration: none;
+}
+
+.img {
+    
+    padding: 15px;
+    align-items: center;
+    border-radius: 30% 15% 45% 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    box-shadow: 10px 10px;
+
+}
+
+hr.ruler {
+
+    border: 10px solid green;
+    border-radius: 5px;
+    width: 50%;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+h2, h1 {
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(168, 232, 216);
+
+}
+
+h3 {
+
+    color: #2196F3;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+p {
+
+    font-size: 20px;
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+    color: rgb(134, 225, 225);
+
+}
+
+.card {
+    
+    height: 50%;
+    width: 50%;
+    object-fit: contain
+    
+}
+
+.three-col {
+    margin: 5px;
+    display: grid;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: rgb(60, 150, 211);
+    padding: 5px;
+    text-align: center;
+}
+
+.container {
+    
+    padding: 10px 10px 100px 10px;
+    height: 250px;
+    margin: 5px;
+    background-color: #cccccc;
+    border-radius: 5%;
+}
+
+.grider {
+
+    display: grid;
+    place-items: center;
+    gap: 5px;
+    column-gap: 0px;
+
+}
+
+ul {
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+dl {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.one-col {
+    
+    width: 100%;
+    display: grid; 
+    grid-template-columns: 1fr;
+    justify-items: center;
+    
+}
+
+.one-cont {
+    
+    justify-content: space-evenly;
+    padding: 15px 15px 15px 15px;
+    margin: 5px;
+    background-color: #cccccc;
+    display: grid;
+    text-align: left;
+    border-radius: 5%;
+    box-shadow: 0 5px 5px 0;
+    
+}
+
